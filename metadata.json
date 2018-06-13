@@ -1,0 +1,8 @@
+{
+ "uuid": "variety-menu@oscardomingo.com",
+ "name": "Variety Menu",
+ "description": "GNOME Shell Menu to interact with Variety (https://peterlevi.com/variety/)",
+ "shell-version": ["3.28"],
+ "url": "https://github.com/Minkiu/variety-menu",
+ "version": 1
+}
