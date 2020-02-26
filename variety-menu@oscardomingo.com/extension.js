@@ -129,14 +129,14 @@ class VarietyMenu extends PanelMenu.Button{
         this.menu.addMenuItem(show_history);
 
         // Toggle Wallpaper selection display
-        let wallpaper_selector = new PopupMenu.PopupMenuItem('Toggle Wallpaper Selector display.');
+        let wallpaper_selector = new PopupMenu.PopupMenuItem('Toggle Wallpaper Selector display');
         wallpaper_selector.connect('activate',  ()=>{
             Util.spawn(['variety', '--selector']);
         });
         this.menu.addMenuItem(wallpaper_selector);
 
         // Toggle Recent Downloads Display
-        let recent_downloads = new PopupMenu.PopupMenuItem('Toggle Recent Downloads display.');
+        let recent_downloads = new PopupMenu.PopupMenuItem('Toggle Recent Downloads display');
         recent_downloads.connect('activate',  ()=>{
             Util.spawn(['variety', '--downloads']);
         });
